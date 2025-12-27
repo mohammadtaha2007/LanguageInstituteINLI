@@ -35,6 +35,24 @@ function App() {
       {/* End NavBar */}
 
       {/* ******************************* */}
+
+      {/* Header */}
+      <header class="header">
+        <div class="banner">
+          <p> {/* نمایش نام کاربر و خوش آمد گویی */} </p>
+
+          <h1>زبانکده ملی ایران</h1>
+          <h2>آموزشگاه شعبه حکیمیه زبانکده ملی ایران</h2>
+
+          <a class="btn btn-banner" href="./news.php">
+            اطلاعیه ها
+          </a>
+        </div>
+      </header>
+      <div class="content-divider"></div>
+      {/* End Header */}
+
+      {/* ******************************* */}
     </>
   )
 }
